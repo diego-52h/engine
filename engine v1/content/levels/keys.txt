@@ -1,0 +1,7 @@
+A moveL NONE
+D moveR NONE
+W moveU NONE
+S moveD NONE
+
+F punch NONE
+X shoot NONE
