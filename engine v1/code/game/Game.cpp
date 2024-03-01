@@ -9,7 +9,7 @@ int main(int argc, char* args[])
 {
 	GameEngine engine(&window);
 	
-	Level level("/home/x/me/projects/engine/data/game v1/content/levels/level.xml");
+	Level level("/home/x/me/projects/engine/data/engine v1/content/levels/level2.xml");
 	
 	engine.startWorld(&level);
 	
