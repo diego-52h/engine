@@ -1,0 +1,49 @@
+"node":
+{
+	"cameras":
+	[
+		{
+			"name": "camera_1",
+			
+			"transform":
+			{
+				"orientation": 0,
+				
+				"scale": [0, 0],
+				"position": [0, 0],
+			}
+		},
+	],
+	
+	"graphicsComponent":
+	{
+		"sprite": "content/sprite/spartan.json",
+		"animation": "none",
+	},
+	
+	"dynamicsComponent":
+	{
+		"properties":
+		{
+			"mass": 0,
+			"inertia": 0,
+		},
+	},
+	
+	"collisionVolumes":
+	[
+		{
+			"name": "volume_1",
+			
+			"type": "box",
+			"size": [0, 0],
+		},
+		
+		{
+			"name": "volume_2",
+			
+			"type": "circle",
+			"size": 0,
+		},
+	]
+}

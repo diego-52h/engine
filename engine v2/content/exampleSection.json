@@ -1,0 +1,18 @@
+"section":
+{
+	"w": 0,
+	"h": 0,
+	
+	"nodes":
+	[
+		{
+			"type": "active/static",
+			
+			"name": "spartan_1",
+			"path": "content/nodes/spartan.json",
+			
+			"parent": "none",
+			"transform": {"orientation": 0, "scale": [0, 0], "position": [0, 0]}
+		},
+	],
+}
