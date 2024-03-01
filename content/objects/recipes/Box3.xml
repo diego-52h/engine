@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Object>
+	<PhysicsObject friction = "0" elasticity = "1" mass = "1" inertia = "1000">
+		<CollisionVolume type = "BOX" width = "32" height = "32"/>
+	</PhysicsObject>
+	
+	<GraphicsObject spriteSheet = "/home/x/me/projects/engine/data/engine v1/content/objects/images/Box1.png">
+		<Animation name = "none" frameDuration = "0" frameW = "32" frameH = "32">
+			<Frame frameX = "0" frameY = "0"/>
+		</Animation>
+		
+		<Animation name = "blit" frameDuration = "100" frameW = "32" frameH = "32">
+			<Frame frameX = "1" frameY = "0"/>
+			<Frame frameX = "2" frameY = "0"/>
+			<Frame frameX = "3" frameY = "0"/>
+		</Animation>
+		
+		<Animation name = "break" frameDuration = "500" frameW = "32" frameH = "32">
+			<Frame frameX = "0" frameY = "1"/>
+			<Frame frameX = "1" frameY = "1"/>
+			<Frame frameX = "2" frameY = "1"/>
+			<Frame frameX = "3" frameY = "1"/>
+		</Animation>
+	</GraphicsObject>
+</Object>
+
+<Breakable maxHealth = "25"/>
